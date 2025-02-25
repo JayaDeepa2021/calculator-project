@@ -16,7 +16,7 @@ body
     width: 250px;
     border-radius: 6px;
     background-color: rgba(243, 13, 178, 0.456);
-   animation: rotatinganimation 10s 2 ease-in-out;
+   animation: rotatinganimation 5s 1 ease-in-out;
 }
 @keyframes rotatinganimation
 {
@@ -44,6 +44,7 @@ body
     background-color: transparent;
     cursor:pointer;
     transition:all 0.3s ease;
+    border-radius:100em;
 }
 .btn input[type='button']:hover
 {
